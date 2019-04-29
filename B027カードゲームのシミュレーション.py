@@ -28,7 +28,7 @@ for i in range(rec):
             break
     #print(ply)
 
-#リストの各要素を2条して新しいリストに格納する内包表記
+#リストの各要素を2乗して新しいリストに格納する内包表記
 ans = [i*2 for i in ply]
 #print(ply)
 [print(ans[i]) for i in range(len(ans)) ]
